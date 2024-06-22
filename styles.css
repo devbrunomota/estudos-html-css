@@ -1,0 +1,111 @@
+ /* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #ff00cc, #3333ff);
+    color: #fff;
+    background-size: cover;
+    background-attachment: fixed;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilos de Cabeçalho */
+header {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid #ff00cc;
+}
+
+header h1 {
+    font-size: 3em;
+    text-shadow: 3px 3px #000;
+    color: #00ffcc;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #00ffcc;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff00cc;
+}
+
+/* Estilos de Seção */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid #00ffcc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+section {
+    padding: 20px 0;
+    border-bottom: 2px solid #00ffcc;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #ff00cc;
+    text-shadow: 2px 2px #000;
+}
+
+section p {
+    text-align: center;
+    max-width: 600px;
+    margin: 10px auto;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.vaporwave-img {
+    max-width: 100%;
+    display: block;
+    margin: 20px auto;
+    border: 4px solid #ff00cc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos de Rodapé */
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+    border-top: 2px solid #ff00cc;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+    color: #00ffcc;
+}
